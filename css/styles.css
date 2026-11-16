@@ -1,0 +1,142 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family:
+    system-ui,
+    -apple-system,
+    sans-serif;
+  background-color: #f4f6f8;
+  color: #1e293b;
+  padding: 30px 15px;
+}
+
+.app {
+  max-width: 520px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 12px;
+  border: 1px solid #e2e8f0;
+}
+
+h1 {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.tarjeta-saldo {
+  background: #0f172a;
+  color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.tarjeta-saldo h2 {
+  font-size: 2.2rem;
+  margin: 8px 0;
+}
+
+.estado {
+  font-size: 0.9rem;
+  color: #94a3b8;
+}
+
+.formulario {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.formulario input,
+.formulario button {
+  flex: 1 1 calc(50% - 5px);
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  font-weight: 600;
+  cursor: pointer;
+  background: #e2e8f0;
+  color: #1e293b;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+#btn-gasto {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+#btn-ingreso {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.filtros {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.filtros button {
+  flex: 1;
+  font-size: 0.85rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+li {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+#buscador {
+  width: 100%;
+  margin-bottom: 12px;
+}
+
+.ingreso {
+  color: #16a34a;
+  font-weight: 600;
+}
+
+.gasto {
+  color: #dc2626;
+  font-weight: 600;
+}
+
+.resumen {
+  padding-top: 15px;
+  border-top: 2px solid #f1f5f9;
+  text-align: right;
+  font-size: 1.05rem;
+}

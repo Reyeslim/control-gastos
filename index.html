@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Control de gastos</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <main class="app">
+      <h1>Control de gastos personal</h1>
+      <section class="tarjeta-saldo">
+        <p>Saldo disponible</p>
+        <h2 id="saldo-pantalla">0 €</h2>
+        <p id="mensaje-estado" class="estado">Calculando estado...</p>
+      </section>
+
+      <section class="formulario">
+        <input
+          type="text"
+          id="input-concepto"
+          placeholder="Ej: Café, Cine, Nómina..."
+        />
+        <input type="number" id="input-cantidad" placeholder="Cantidad (€)" />
+        <button id="btn-gasto">Añadir Gasto</button>
+        <button id="btn-ingreso">Añadir Ingreso</button>
+      </section>
+
+      <section class="filtros">
+        <button id="btn-todos">Ver Todos</button>
+        <button id="btn-solo-gastos">Solo Gastos</button>
+        <button id="btn-solo-ingresos">Solo Ingresos</button>
+      </section>
+
+      <section>
+        <h3>Últimos movimientos</h3>
+        <ul id="lista-movimientos"></ul>
+      </section>
+
+      <footer class="resumen">
+        <p>Total gastado: <strong id="total-gastado">0 €</strong></p>
+      </footer>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
