@@ -9,7 +9,7 @@ body {
     system-ui,
     -apple-system,
     sans-serif;
-  background-color: #f4f6f8;
+  background-color: #dfe3e8;
   color: #1e293b;
   padding: 30px 15px;
 }
@@ -17,10 +17,10 @@ body {
 .app {
   max-width: 520px;
   margin: 0 auto;
-  background: #ffffff;
+  background: #f8fafc;
   padding: 25px;
   border-radius: 12px;
-  border: 1px solid #e2e8f0;
+  border: 1px solid #cbd5e1;
 }
 
 h1 {
